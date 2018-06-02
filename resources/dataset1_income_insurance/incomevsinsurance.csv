@@ -1,0 +1,53 @@
+id,state,Locationabbr,income,Data_value
+1,Alabama,AL,34.2,17.4
+2,Alaska,AK,28.9,11.9
+4,Arizona,AZ,32.7,15.5
+5,Arkansas,AR,29.3,18.2
+6,California,CA,32.6,13.5
+8,Colorado,CO,28.3,13.1
+9,Connecticut,CT,31.9,11.3
+10,Delaware,DE,37.7,10.8
+11,District of Columbia,DC,30.5,10.5
+12,Florida,FL,34,17.6
+13,Georgia,GA,33.2,19
+15,Hawaii,HI,31.4,8.7
+16,Idaho,ID,30.6,15.8
+17,Illinois,IL,32.4,12.4
+18,Indiana,IN,28.2,15.1
+19,Iowa,IA,29.6,8.8
+20,Kansas,KS,28.2,12.5
+21,Kentucky,KY,29.8,15.9
+22,Louisiana,LA,34.6,17.5
+23,Maine,ME,24.8,10.9
+24,Maryland,MD,33,10.1
+25,Massachusetts,MA,32.5,8.3
+26,Michigan,MI,29.9,14.6
+27,Minnesota,MN,24.9,9.2
+28,Mississippi,MS,32.9,19.4
+29,Missouri,MO,29.4,13.7
+30,Montana,MT,31.4,11.9
+31,Nebraska,NE,27.7,11.8
+32,Nevada,NV,33.6,17.3
+33,New Hampshire,NH,26.7,11.1
+34,New Jersey,NJ,34.6,14
+35,New Mexico,NM,28.6,17.2
+36,New York,NY,36.2,14
+37,North Carolina,NC,28.5,16.2
+38,North Dakota,ND,29.5,7
+39,Ohio,OH,28.8,13.1
+40,Oklahoma,OK,32.5,15
+41,Oregon,OR,25,14.4
+42,Pennsylvania,PA,30.8,11.8
+44,Rhode Island,RI,33,11.9
+45,South Carolina,SC,31.4,18.1
+46,South Dakota,SD,26.3,10
+47,Tennessee,TN,31.6,15.5
+48,Texas,TX,31.2,17.6
+49,Utah,UT,27.6,14.3
+50,Vermont,VT,26.6,9.1
+51,Virginia,VA,30.1,13.1
+53,Washington,WA,25.7,12.3
+54,West Virginia,WV,32.3,16.5
+55,Wisconsin,WI,26.7,10.6
+56,Wyoming,WY,32.8,11.8
+72,Puerto Rico,PR,27.6,12.2
