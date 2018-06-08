@@ -44,7 +44,9 @@ function makeResponsive() {
     .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
   // Read CSV
-  d3.csv("datasetOccu1.csv", function (err, occuData) {
+  d3.csv("resources/datasetOccu1.csv", function (err, occuData) {
+    var corr = +occuData[0].correlation;
+    console.log(corr);
 
     // parse data
     occuData.forEach(function (data) {
@@ -85,6 +87,13 @@ function makeResponsive() {
       .attr("d", line)
       .attr("fill", "none")
       .attr("stroke", "none")
+
+    // Create correlation legend labels
+    chartGroup.append("text")
+    .attr("transform", `translate(${width/1.25}, ${height + margin.top  -90})`)
+    .attr("class", "axisText")
+    .text(`Correlation: ${corr}`);
+    // .text("Correlation: 0.574");
 
     // append circles
     var circlesGroup = chartGroup.selectAll("circle")
@@ -131,6 +140,5 @@ function makeResponsive() {
     .attr("transform", `translate(${width/2.8}, ${height + margin.top  -10})`)
     .attr("class", "axisText")
     .text("Occupation category %");
-
   });
 };
